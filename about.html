@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/carousel.css" rel="stylesheet">
+    <title>about</title>
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+        img{
+            object-fit: fill;
+        }
+        .card-img {
+            width: 100%;
+            height: 200px; /* Atur sesuai kebutuhan */
+            object-fit: cover;
+        }
+        .overlay-dark::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shafee's Bakery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeri.html">Galeri</a>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark">
+              <img src="img/r1.jpg" alt="" style="width: 100%; height: 100%;">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Welcom to Shofee's Cakes Bread and More</h1>
+                <p>Sehat Lezat Kaya akan Serat dan Kalsium</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="img/bkr2.jpg" alt="" style="width: 100%; height: 100%;">
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Yakin Nggak Ngiler?</h1>
+                <p>can't live without them in our everyday life</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="img/pastry1.jpg" alt="" style="width: 100%; height: 100%;">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Apapun Acaranya Shofee Bakery Pilihannya</h1>
+                <p>Selalu Hadir dalam setiap momen spesial Anda dengan produk produk terbaik dari kami</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+          <!-- START THE FEATURETTES -->
+          <div class="row featurette" style="background-color: white;">
+            <div class="col-md-7">
+              <h2 class="featurette-heading" style="margin-top: 3.5rem;">About <span class="text-muted">Us</span></h2>
+              <p class="lead">Shafee's Bakery merupakan teman setia kapanpun disaat anda  merasa lapar dengan perpaduan sempurna antara rasa lembut manisdan gurih. Shafee's Bakery Menyajikan Kenikmatan tak terduga disetiap Gigitannya.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="img/tmpt.jpg" alt="" sty" style="width: 100%;">
+      
+            </div>
+          </div>
+        </div><!-- /.container -->
+
+
+    <!-- ======= Our Skills Section ======= -->
+    <section class="skills" data-aos="fade-up">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Skills</h2>
+          <p>Kami selalu berkomitmen untuk menyajikan sajian yang HALAL & THOYYIB.</p>
+        </div>
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="3" aria-valuemax="200">
+              <span class="skill">Tart <i class="val">100%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Pastry <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Bakery <i class="val">75%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Cakes <i class="val">55%</i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Skills Section -->
+
+        <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+
+
+          <
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              0123 Zuhaila Street <br>
+              Indonesia, SH 456789<br>
+              uMUM <br><br>
+              <strong>Phone:</strong> +64-8564-5847660<br>
+              <strong>Email:</strong> info@shofee's_bakery.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Shofee's Bakery</h3>
+            <p>Maniskan harimu dengan berbagai macam kue lezat dari kami.</p>
+            <p>Nikmati kelembutan sempurna dalam setiap lapisan kue kami,Pesan sekarang dan rasakan keajaibannya!!</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Shofee's Bakery</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
+        Designed by : Zuhaila Shofia
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+      <script src="js/bootstrap.bundle.js"></script>
+
+
+    
+
+    
+</body>
+</html>
